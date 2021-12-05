@@ -1,0 +1,103 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+p {
+    padding: 5px;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+.archivo-black {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.entete {
+    position:absolute;
+    top: 150px; 
+    left: 15%;
+    width:70%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+}
+
+.bande-container{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
+.bande-droite{
+    width: 40%;
+    background-color: rgb(232, 241, 238);
+    padding-top: 160px;
+}
+
+.bande-gauche{
+    width: 60%;
+    padding-top: 160px;
+}
+
+.logo{
+    height: 180x;
+    width: 180px;
+}
+
+.square {
+    margin: 0px;
+    height: 300px;
+    width: 300px;
+}
+
+.round-borders{
+    border: 2px solid #000000;
+    border-radius: 40px;
+}
+
+.bande-droite > * , .bande-gauche > * {
+    margin: 15px;
+    padding: 10px;
+    padding-left: 30px;
+    width: 80%;
+    height: auto;
+}
+
+.bande-gauche > div > * {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style-type: '-  ';
+}
+
+#side-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    font-size: 50px;
+}
+
+#back-image-intro {
+    width:100%;
+    height:300px;
+    background-image: url('images/bandeau.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#profil-img {
+    max-height: 100%;
+    border-radius:37px 0px 0px 37px;
+}
+
+#titre-bande-gauche {
+    margin-top: 30px;
+    text-align: center;
+}
